@@ -1,0 +1,527 @@
+{
+  "app-call-messages" : [ ],
+  "app-call-trace" : [ ],
+  "cost" : null,
+  "disassembly" : [ "#pragma version 2", "intcblock 1 1000 2 0 3000 3", "bytecblock 0xec8705d7ca710c0652f4dcddda13b8fe400bfd0c1f07bdfd17c05c826cf6fed7 0x8c8681d376d39085549e3ceda68644536b2a89ab167cce2a8847f33097ef5ff8 0x2f0b77364ff1ac5d33e8da57d5b99a5ceb416f3d833d366bc4a8233fce19fbd5", "txn TypeEnum", "intc_0 // 1", "==", "txn Fee", "intc_1 // 1000", "<", "&&", "txn RekeyTo", "global ZeroAddress", "==", "&&", "global GroupSize", "intc_2 // 2", "==", "bnz label1", "txn CloseRemainderTo", "bytec_0 // addr 5SDQLV6KOEGAMUXU3TO5UE5Y7ZAAX7IMD4D337IXYBOIE3HW73LT7DPQMY", "==", "txn Receiver", "global ZeroAddress", "==", "&&", "txn Amount", "intc_3 // 0", "==", "&&", "txn FirstValid", "intc 4 // 3000", ">", "&&", "b label2", "label1:", "gtxn 0 Sender", "gtxn 1 Sender", "==", "txn CloseRemainderTo", "global ZeroAddress", "==", "&&", "gtxn 0 Receiver", "bytec_1 // addr RSDIDU3W2OIIKVE6HTW2NBSEKNVSVCNLCZ6M4KUII7ZTBF7PL74DSJWWXU", "==", "&&", "gtxn 1 Receiver", "bytec_2 // addr F4FXONSP6GWF2M7I3JL5LOM2LTVUC3Z5QM6TM26EVART7TQZ7PK5NBH2WY", "==", "&&", "gtxn 0 Amount", "gtxn 0 Amount", "gtxn 1 Amount", "+", "intc_0 // 1", "*", "intc 5 // 3", "/", "==", "&&", "gtxn 0 Amount", "intc_1 // 1000", "==", "&&", "label2:", "&&", "return", "" ],
+  "global-delta" : [ ],
+  "local-deltas" : [ ],
+  "logic-sig-messages" : [ "REJECT" ],
+  "logic-sig-trace" : [ {
+    "error" : null,
+    "line" : 1,
+    "pc" : 1,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 2,
+    "pc" : 11,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 3,
+    "pc" : 112,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 4,
+    "pc" : 114,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 5,
+    "pc" : 115,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 6,
+    "pc" : 116,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 7,
+    "pc" : 118,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1000
+    } ]
+  }, {
+    "error" : null,
+    "line" : 8,
+    "pc" : 119,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1000
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1000
+    } ]
+  }, {
+    "error" : null,
+    "line" : 9,
+    "pc" : 120,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 10,
+    "pc" : 121,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 11,
+    "pc" : 123,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 12,
+    "pc" : 125,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 13,
+    "pc" : 126,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 14,
+    "pc" : 127,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 15,
+    "pc" : 129,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 16,
+    "pc" : 130,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 2
+    } ]
+  }, {
+    "error" : null,
+    "line" : 17,
+    "pc" : 131,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 18,
+    "pc" : 134,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 19,
+    "pc" : 136,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 20,
+    "pc" : 137,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    }, {
+      "bytes" : "7IcF18pxDAZS9Nzd2hO4/kAL/QwfB739F8Bcgmz2/tc=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 21,
+    "pc" : 138,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 22,
+    "pc" : 140,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "Lwt3Nk/xrF0z6NpX1bmaXOtBbz2DPTZrxKgjP84Z+9U=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 23,
+    "pc" : 142,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "Lwt3Nk/xrF0z6NpX1bmaXOtBbz2DPTZrxKgjP84Z+9U=",
+      "type" : 1,
+      "uint" : 0
+    }, {
+      "bytes" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 24,
+    "pc" : 143,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 25,
+    "pc" : 144,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 26,
+    "pc" : 146,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1000000
+    } ]
+  }, {
+    "error" : null,
+    "line" : 27,
+    "pc" : 147,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1000000
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 28,
+    "pc" : 148,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 29,
+    "pc" : 149,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 30,
+    "pc" : 151,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 18217082
+    } ]
+  }, {
+    "error" : null,
+    "line" : 31,
+    "pc" : 153,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 18217082
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 3000
+    } ]
+  }, {
+    "error" : null,
+    "line" : 32,
+    "pc" : 154,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 33,
+    "pc" : 155,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 65,
+    "pc" : 206,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 66,
+    "pc" : 207,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 67,
+    "pc" : 208,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  } ],
+  "logs" : [ ]
+}

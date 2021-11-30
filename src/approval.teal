@@ -1,0 +1,13 @@
+#pragma version 2
+txn TypeEnum
+int pay
+==
+txn Fee
+int 1000
+<
+&&
+txn RekeyTo
+global ZeroAddress
+==
+&&
+return

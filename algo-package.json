@@ -1,0 +1,14 @@
+{
+  "name" : "FirstSfContract",
+  "version" : "1.0",
+  "stateful_contracts" : [ {
+    "name" : "SfContract-1",
+    "approval_program" : "src/approval_progam.teal",
+    "clear_state_program" : "src/clear_state_program.teal",
+    "global-byteslices" : 1,
+    "global-ints" : 1,
+    "local-byteslices" : 1,
+    "local-ints" : 1,
+    "extra-pages" : 0
+  } ]
+}

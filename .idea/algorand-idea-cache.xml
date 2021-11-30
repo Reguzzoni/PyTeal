@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="algorand-idea-cache">
+    <option name="sfCreatorAccount" value="RSDIDU3W2OIIKVE6HTW2NBSEKNVSVCNLCZ6M4KUII7ZTBF7PL74DSJWWXU" />
+    <option name="contract" value="SfContract-1" />
+    <option name="appIdMap">
+      <map>
+        <entry key="SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=">
+          <value>
+            <list>
+              <option value="44809005" />
+              <option value="45072924" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="appIdContractMap">
+      <map>
+        <entry key="44809005" value="SfContract-1" />
+        <entry key="45072924" value="SfContract-1" />
+      </map>
+    </option>
+  </component>
+</project>
