@@ -4,8 +4,8 @@
   "signingAddresses" : [ "5SDQLV6KOEGAMUXU3TO5UE5Y7ZAAX7IMD4D337IXYBOIE3HW73LT7DPQMY" ],
   "logicsigSignature" : {
     "arg" : [ ],
-    "l" : "AiAGAegHAgC4FwMmAyDshwXXynEMBlL03N3aE7j+QAv9DB8Hvf0XwFyCbPb+1yCMhoHTdtOQhVSePO2mhkRTayqJqxZ8ziqIR/Mwl+9f+CAvC3c2T/GsXTPo2lfVuZpc60FvPYM9NmvEqCM/zhn71TEQIhIxASMMEDEgMgMSEDIEJBJAABgxCSgSMQcyAxIQMQglEhAxAiEEDRBCADAzAAAzAQASMQkyAxIQMwAHKRIQMwEHKhIQMwAIMwAIMwEICCILIQUKEhAzAAgjEhAQQw==",
-    "sig" : "dkn9G9+nNfVy+0x5SukAsBU0rOMPs+JPivGQdGxtySkZ/tohe3kIDKAUtM1ld5ZprkNOlDijQaNvkmt+2hjSAQ=="
+    "l" : "AiAD6AcBuBcmAyDshwXXynEMBlL03N3aE7j+QAv9DB8Hvf0XwFyCbPb+1wrW9b1vW9b1vW9bIC8LdzZP8axdM+jaV9W5mlzrQW89gz02a8SoIz/OGfvVMQEiDDEQIxIxCTIDEhAxIDIDEhAQMQcoEi0BKRIQMQcqEjECJA0QERBD",
+    "sig" : "bBYbAR2lOrzenHDe9hzYxb5YXB1L6suUIeWGtBGihxo9vTuHgKUmkVCldrNdEDOJA6RIlIEMD2hoxrLfio21BA=="
   },
   "sourcePath" : "C:/Users/aregu/FirstSfContract/src/test.teal"
 }

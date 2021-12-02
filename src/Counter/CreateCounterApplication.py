@@ -214,13 +214,13 @@ def main() :
     local_schema = transaction.StateSchema(local_ints, local_bytes)
 
     # compile program to TEAL assembly
-    with open("./approval.teal", "w") as f:
+    with open("../tealExamples/approval.teal", "w") as f:
         approval_program_teal = approval_program()
         f.write(approval_program_teal)
 
 
     # compile program to TEAL assembly
-    with open("./clear.teal", "w") as f:
+    with open("../tealExamples/clear.teal", "w") as f:
         clear_state_program_teal = clear_state_program()
         f.write(clear_state_program_teal)
 

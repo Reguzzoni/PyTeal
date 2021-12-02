@@ -119,10 +119,10 @@ def clear_state_program():
 
 
 if __name__ == "__main__":
-    with open("asset_approval.teal", "w") as f:
+    with open("../tealExamples/asset_approval.teal", "w") as f:
         compiled = compileTeal(approval_program(), mode=Mode.Application, version=4)
         f.write(compiled)
 
-    with open("asset_clear_state.teal", "w") as f:
+    with open("../tealExamples/asset_clear_state.teal", "w") as f:
         compiled = compileTeal(clear_state_program(), mode=Mode.Application, version=4)
         f.write(compiled)

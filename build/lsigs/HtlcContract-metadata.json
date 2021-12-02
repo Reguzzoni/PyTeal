@@ -1,0 +1,11 @@
+{
+  "isMultiDelegatedSignature" : false,
+  "isDelegatedSignature" : true,
+  "signingAddresses" : [ "5SDQLV6KOEGAMUXU3TO5UE5Y7ZAAX7IMD4D337IXYBOIE3HW73LT7DPQMY" ],
+  "logicsigSignature" : {
+    "arg" : [ ],
+    "l" : "AiAD6AcBuBcmAiDshwXXynEMBlL03N3aE7j+QAv9DB8Hvf0XwFyCbPb+1wrW9b1vW9b1vW9bMQEiDDEQIxIxCTIDEhAxIDIDEhAQMQcoEi0BKRIQMQcoEjECJA0QERBD",
+    "sig" : "LeSulYA9ZlT2GZNFpiY8IT2z5uCiFVFh5xXMcYGdFz1iaHcFR1UQ135M9xLCQj6x0MFDNEb4xLzJ2MAxaAOWAg=="
+  },
+  "sourcePath" : "C:/Users/aregu/FirstSfContract/generated-src/HtlcContract.teal"
+}

@@ -1,13 +1,12 @@
 # based off https://github.com/algorand/docs/blob/cdf11d48a4b1168752e6ccaf77c8b9e8e599713a/examples/smart_contracts/v2/python/stateful_smart_contracts.py
 
 import base64
-import datetime
 
 from algosdk.future import transaction
 from algosdk import account, mnemonic
 from algosdk.v2client import algod
 from pyteal import compileTeal, Mode
-from CreateAssetContract import approval_program, clear_state_program
+from Counter.CreateAssetContract import approval_program, clear_state_program
 
 # user declared account mnemonics
 creator_mnemonic = "since neutral seek fragile movie pluck about scatter lecture present dilemma avocado venue horse obey there sort mimic resist remember body theory exchange able page"
